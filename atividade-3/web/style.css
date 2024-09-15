@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 100px auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #cpfMessage {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .sucesso {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+  
